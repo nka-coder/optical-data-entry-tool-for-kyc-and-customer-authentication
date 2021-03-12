@@ -12,8 +12,8 @@ The solution that we propose in this project is to use OCR (Optical Character Re
 ## Dataset 
 To build our identity document information extractor, we will use MIDV-500 dataset which contain images and video clips of 50 different types of identity documents. MIDV-500 is publicly available dataset that can be downloaded from the following server : ftp://smartengines.com/midv-500/dataset/
 Because of the time constraint of this project, we will build a data entry tool that supports only three types of identity document. Thus, we will use the following three sub-datasets of the MIDV-500 dataset :</br>
-	- USA passport cards ;:</br>
-	- Albania ID cards ;:</br>
+	- USA passport cards ;</br>
+	- Albania ID cards ;</br>
 	- Brazil passport cards.
 
 ## Benchmark model 
@@ -25,10 +25,10 @@ The Evaluation metric that we will use to mesure the performance of our model is
 ***Fields Recognition Accuracy =True positive/Dataset size***
 
 ## Project implementation plan 
-To achieve our goal, we decompose the project into the following steps ::</br>
-	- **Step 1 :** build an image classifier to recognize each of the 3 types of identity document of MIDV-500 dataset that we selected.:</br> 
-	- **Step 2 :** use PyTesseract library, to extract raw text from an image of identity document and parse it to extract key informations of that identity document.:</br>
-	- **Step 3 :** build a Rest API that takes as input an image, if it is an identity document it returns the corresponding key informations otherwise it returns an alert.:</br>
-	- **Step 4 :** build mobile app that can extract key information of an identity document from a photo of that document.:</br>
+To achieve our goal, we decompose the project into the following steps. </br>
+	- **Step 1 :** build an image classifier to recognize each of the 3 types of identity document of MIDV-500 dataset that we selected.</br> 
+	- **Step 2 :** use PyTesseract library, to extract raw text from an image of identity document and parse it to extract key informations of that identity document.</br>
+	- **Step 3 :** build a Rest API that takes as input an image, if it is an identity document it returns the corresponding key informations otherwise it returns an alert.</br>
+	- **Step 4 :** build mobile app that can extract key information of an identity document from a photo of that document.</br>
 
 
