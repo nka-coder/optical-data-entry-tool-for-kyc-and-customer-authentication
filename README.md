@@ -1,4 +1,4 @@
-# A data entry tool for KYC and customer authentication 
+# An optical data entry tool for KYC and customer authentication 
 
 ## Domain :
 Finance and Insurance.
