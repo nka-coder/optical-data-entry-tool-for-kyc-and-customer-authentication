@@ -55,7 +55,7 @@ To test the API, follow the step below:</br>
 	2. Start your Anaconda or Python Terminal</br>
 	3. Use cd commandto navigate to the folder containing the file **api.py**</br>
 	4. Execute on the Terminal the command: **uvicorn api:app --host xxx.xxx.xxx.xxx** , where xxx.xxx.xxx.xxx represents the IP address of the computer hosting the API.</br>
-	5. Open on you navigator the url: http://xxx.xxx.xxx.xxx:8000/docs</br>
+	5. Open on you navigator the url: http: //xxx.xxx.xxx.xxx:8000/docs</br>
 	6. The Swagger interface below will appears and let you test the API.</br>
 
 **App source code and executable file**</br>
