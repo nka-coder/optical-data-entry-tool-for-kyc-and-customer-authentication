@@ -8,7 +8,6 @@ Verification of identity is a tedious and recurrenttask that employees of financ
 
 ## Solution statement 
 The  goal  is  to  create  an  identity  document  information  extractor  running  on  Android smartphones. The app must be able to detect if a document has a MRZ (Machine-readable-zone)and if  it  is  the  case, extract  identity  information  from  it. The tasks  involved are  the following:</br>
-
 	- Create a dataset of images of different types of identity document.</br>
  	- Write an OCR model (code) that can extract identity information from an MRZ image with high accuracy.</br>
  	- Make an Android App that leverage the model above to extract identity information from an identity document.</br>
