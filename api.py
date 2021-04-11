@@ -43,7 +43,7 @@ async def id_reader(file: UploadFile = File(...) ):
     - mrz: dictionary containing identity information extracted from the input video
     - message: the status of execution the function (Success or Failed)
     """
-
+    print('received')
     sample_size = 5
     checked_digits_mrz = {}
 
