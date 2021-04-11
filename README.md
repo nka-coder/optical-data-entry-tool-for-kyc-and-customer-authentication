@@ -41,7 +41,7 @@ To   implement   the   proposed   solution,   there   are   some   software   re
 To make this work practical, I developed an android app that leverages the proposed OCR model and the check-digits verification to extract identity information from identity document. The app is not already perfect, but it is a good start for the development of a professional tool.
 
 **Experiment source codes**</br>
-The source code (**experiment.py**) of the experiment can be found on Github repo.</br></br>
+The source code (**experiment.py**) of the experiment can be found on Github repo.</br>
 	1. Clone or download the Github repo of the source code into the server computer</br>
 	2. Start your Anaconda orPython Terminal</br>
 	3. Use cd command to navigate to the folder containing the file **experiment.py**</br>
@@ -50,7 +50,7 @@ The source code (**experiment.py**) of the experiment can be found on Github rep
 
 **API source code**</br>
 The source code (**api.py**) of the app can be found on Github on this link.</br></br>
-To test the API, follow the step below:</br></br>
+To test the API, follow the step below:</br>
 	1. Clone or download the Github repo of the source code into the server computer</br>
 	2. Start your Anaconda or Python Terminal</br>
 	3. Use cd commandto navigate to the folder containing the file **api.py**</br>
@@ -60,7 +60,7 @@ To test the API, follow the step below:</br></br>
 
 **App source code and executable file**</br>
 The work  is  still  in  progress  to  finalize  the  Android  app  development. You  can  follow  the development of the Android app on the Github repo (the sourcecode of the app is in the folder named **idinfoextractor**).</br></br>
-To test the Android app at its current status.</br></br>
+To test the Android app at its current status.</br>
 	1. Clone or download the Github repo of the source code into the server computer</br>
 	2. Open the project on Android Studio</br>
 	3. On the file named **UploadUtility.kt** at  line  20,change  the **serverURL** variable  byyour  API  URL  (http://xxx.xxx.xxx.xxx:8000/idreader, where xxx.xxx.xxx.xxx represents the IP address of the computer hosting the API)</br>
